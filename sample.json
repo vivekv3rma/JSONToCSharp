@@ -1,0 +1,99 @@
+{
+  "id": "ORD-2026-001",
+  "orderDate": "2026-06-21T14:30:00Z",
+  "status": "confirmed",
+  "totalAmount": 249.97,
+  "isPriority": true,
+  "notes": null,
+  "customer": {
+    "customerId": "CUST-4521",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1-555-0123",
+    "loyaltyTier": "gold",
+    "shippingAddress": {
+      "street": "742 Evergreen Terrace",
+      "unit": "Apt 2B",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62704",
+      "country": "US",
+      "coordinates": {
+        "latitude": 39.7817,
+        "longitude": -89.6501
+      }
+    },
+    "billingAddress": {
+      "street": "742 Evergreen Terrace",
+      "unit": "Apt 2B",
+      "city": "Springfield",
+      "state": "IL",
+      "postalCode": "62704",
+      "country": "US",
+      "coordinates": {
+        "latitude": 39.7817,
+        "longitude": -89.6501
+      }
+    }
+  },
+  "lineItems": [
+    {
+      "lineItemId": "LI-001",
+      "product": {
+        "sku": "WDG-001",
+        "name": "Deluxe Widget",
+        "category": "widgets",
+        "unitPrice": 49.99,
+        "tags": ["bestseller", "eco-friendly", "new-2026"]
+      },
+      "quantity": 2,
+      "discountPercent": 10.0,
+      "lineTotal": 89.98
+    },
+    {
+      "lineItemId": "LI-002",
+      "product": {
+        "sku": "GDG-042",
+        "name": "Premium Gadget",
+        "category": "gadgets",
+        "unitPrice": 79.99,
+        "tags": ["premium", "limited-edition"]
+      },
+      "quantity": 2,
+      "discountPercent": 0.0,
+      "lineTotal": 159.99
+    }
+  ],
+  "payment": {
+    "method": "credit_card",
+    "transactionId": "TXN-8A7B6C5D",
+    "amountCharged": 249.97,
+    "currency": "USD",
+    "cardLastFour": "4242",
+    "installments": {
+      "enabled": false,
+      "numberOfPayments": 1,
+      "paymentSchedule": []
+    }
+  },
+  "metadata": {
+    "source": "web",
+    "campaign": "summer-sale-2026",
+    "referrer": "google.com",
+    "deviceInfo": {
+      "type": "desktop",
+      "os": "Windows 11",
+      "browser": "Chrome 125",
+      "screenResolution": "1920x1080"
+    },
+    "customFields": {
+      "giftWrap": false,
+      "giftMessage": "",
+      "internalPriority": 3
+    }
+  },
+  "tags": ["wholesale", "repeat-customer"],
+  "createdAt": "2026-06-21T14:30:00Z",
+  "updatedAt": "2026-06-21T15:00:00Z"
+}
