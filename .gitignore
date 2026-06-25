@@ -1,0 +1,119 @@
+# Visual Studio & Visual Studio Code combined .gitignore
+# Generated to ignore build artifacts, user-specific files, and editor folders
+
+########################################
+# Visual Studio
+########################################
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+build/
+Build/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Visual Studio cache and temporary files
+.vs/
+*.VC.db
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish output
+publish/
+
+# IIS Express
+/.vs/**/*.db
+
+########################################
+# Rider
+########################################
+.idea/
+
+########################################
+# Visual Studio Code
+########################################
+
+# VS Code workspace settings
+.vscode/
+# keep launch and tasks if you track them; uncomment to allow
+!/.vscode/launch.json
+!/.vscode/tasks.json
+
+########################################
+# .NET Core
+########################################
+
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.pidb
+*.svclog
+*.pdb
+
+########################################
+# OS generated files
+########################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+########################################
+# Node / frontend
+########################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+########################################
+# Logs
+########################################
+
+*.log
+logs/
+
+########################################
+# Local secrets and credentials
+########################################
+
+.env
+*.key
+secrets.json
+
+########################################
+# Misc
+########################################
+
+# DotCover
+*.dotCover
+
+# Coverage
+coverage/
+
+# Resharper caches
+_ReSharper*/
+
+# End of file
